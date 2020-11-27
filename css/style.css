@@ -4,7 +4,8 @@
     --primary-color: #2F4858;
     --secondary-color: #ce5132;
     --section-bg1: #86BBD8;
-    --section-bg2: #33658A
+    --section-bg2: #33658A;
+    --footer-color: #000000;
 }
 
 
@@ -56,7 +57,7 @@ h1, h2, h3, h4, h5, h6{
     
 }
 
-.nav-brand .img-in-nav-brand{
+.svg-img-size{
     height: 30px;
     width: 30px;
 }
@@ -105,4 +106,9 @@ h1, h2, h3, h4, h5, h6{
 
 .change-bg-color-2 {
     background-color: var(--section-bg2);
+}
+
+.footer {
+    background-color: var(--footer-color);
+    color: whitesmoke;
 }
