@@ -7,35 +7,81 @@
     <title>Component Library</title>
 </head>
 <body>
-    
+
+
+    <nav class="nav-container">
+        <div class="nav-brand">Developer </div>
+        <ul class="list-not-bullet nav-pills">
+            <li class="list-inline">Home</li>
+            <li class="list-inline">Projects</li>
+            <li class="list-inline">Blogs</li>
+        </ul>
+
+    </nav>
+  
+    <hr>
+
     <h1>@containers</h1>
     <h2>@fluid container</h2>
 
     <div class="container">
         This is fluid container. It goes till the end.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </div>
 
     <h2>@center conrtainer</h2>
 
     <div class="container container-center">
         This is centered container. It remains at center.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </div>
 
     <hr>
+
+
+    <div>
+        <h2>@orderedlist</h2>
+        <ol>
+            <li>234</li>
+            <li>dfg</li>
+        </ol>
+
+        <h2>@unorderedlist</h2>
+        <ul>
+            <li>sxder</li>
+            <li>ghjk</li>
+        </ul>
+
+        <h2>@unorderedlist without bulletpoints</h2>
+        <ul class="list-not-bullet">
+            <li>sxder</li>
+            <li>ghjk</li>
+        </ul>
+
+        <h2>@unordered list inline without bullet</h2>
+        <ul class="list-not-bullet">
+            <li class="list-inline">qwerty</li>
+            <li class="list-inline">qwerty</li>
+            <li class="list-inline">qwerty</li>
+        </ul>
+    </div>
+
+    <hr>
+
 <!-- 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wrote this blog a month back. I&#39;ll be using this blog for the assignment given by <a href="https://twitter.com/tanaypratap?ref_src=twsrc%5Etfw">@tanaypratap</a> in <a href="https://twitter.com/neogcamp?ref_src=twsrc%5Etfw">@neogcamp</a> <br>PS - Posting it here to make use of embed tweet functionality of Twitter.😅😂<a href="https://t.co/HksGeyvWRH">https://t.co/HksGeyvWRH</a></p>&mdash; Rohan Gupta (@gupta1rohan) <a href="https://twitter.com/gupta1rohan/status/1332318456075612161?ref_src=twsrc%5Etfw">November 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
 <!-- 
     <blockquote class="embedly-card"><h4><a href="https://rohangupta-75149.medium.com/prime-numbers-within-a-range-sieve-of-eratosthenes-b3055de35352">Prime numbers within a range-Sieve of Eratosthenes</a></h4><p>Hello everyone, welcome to my blog. Today we are going to learn about a very famous and very widely used(because of its efficiency) competitive programming algorithm i.e. Sieve of Eratosthenes . It is used to find all the prime numbers within a given range of numbers say 1 to n.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> -->
+<h1>Header</h1>
+<header class="hero">
+    <img class="hero-img" src="/img/undraw_code_thinking_1jeh.svg" alt="image of a person">
+    <h1 class="hero-heading">Rohan Gupta, An Aspiring <span class="heading-diff-color">Web Developer</span></h1>
+</header>
 
-    <nav class="nav-container">
-        <div class="nav-brand">Developer <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyLjAwMSA1MTIuMDAxIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIuMDAxIDUxMi4wMDE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiNDNjBFMkQ7IiBkPSJNNDQ5LjM0MSwzMzMuOTk4bC03Ny44MS0xNy43OGMtOC41NjktMS45NjItMTYuOTksMy44NC0xOC4yMDcsMTIuNTQ3DQoJYy01LjAxNSwzNS44NzYtMTQuNzA4LDczLjU4NC0yOC44MDksMTEyLjA3NmMtMi42NjYsNy4yNzYsMC42NSwxNS4zODYsNy42NSwxOC43MWwxMDcuNCw1MWM0LjYzNiwyLjIwMSwxMC4wOTEsMS44ODUsMTQuNDQ5LTAuODcxDQoJYzQuMzUtMi43NSw2Ljk4Ni03LjUzNSw2Ljk4Ni0xMi42OFYzNDguNjIxQzQ2MSwzNDEuNjI0LDQ1Ni4xNjMsMzM1LjU1Nyw0NDkuMzQxLDMzMy45OTh6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRDgxRDJGOyIgZD0iTTE4Ny40ODQsNDQwLjg0Yy0xNC4xMDItMzguNDkzLTIzLjc5NC03Ni4yMDEtMjguODA5LTExMi4wNzYNCgkJYy0xLjIyMi04Ljc0Ni05LjY4Ni0xNC40OTgtMTguMjA3LTEyLjU0N2wtNzcuODEsMTcuNzhDNTUuODM3LDMzNS41NTcsNTEsMzQxLjYyNCw1MSwzNDguNjIxVjQ5N2MwLDUuMTQ1LDIuNjM2LDkuOTMsNi45ODUsMTIuNjc5DQoJCWM0LjM1NSwyLjc1NCw5LjgwOSwzLjA3NCwxNC40NDksMC44NzFsMTA3LjQtNTFDMTg2LjgzNSw0NTYuMjI2LDE5MC4xNSw0NDguMTE3LDE4Ny40ODQsNDQwLjg0eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEODFEMkY7IiBkPSJNMzAxLDQzMWgtOTBjLTguMjg0LDAtMTUsNi43MTYtMTUsMTV2NTFjMCw4LjI4NCw2LjcxNiwxNSwxNSwxNWg5MGM4LjI4NCwwLDE1LTYuNzE2LDE1LTE1di01MQ0KCQlDMzE2LDQzNy43MTYsMzA5LjI4NCw0MzEsMzAxLDQzMXoiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNDNjBFMkQ7IiBkPSJNMzAxLDQzMWgtNDV2ODFoNDVjOC4yODQsMCwxNS02LjcxNiwxNS0xNXYtNTFDMzE2LDQzNy43MTYsMzA5LjI4NCw0MzEsMzAxLDQzMXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGQjNDMzM7IiBkPSJNMzUyLjY5LDQ1MS4xNmMtMi4xNyw1LjkxLTcuNzksOS44NC0xNC4wOSw5Ljg0SDE3My40Yy02LjI5LDAtMTEuOTItMy45My0xNC4wOC05Ljg0DQoJYy0xNC43Ny00MC4yOS0yNC45NS03OS44ODktMzAuMjgtMTE3LjY5OWMtMC4wMy0wLjE4LTAuMDYtMC4zNi0wLjA4LTAuNTRjLTcuNTgyLTU0LjEzNC01Ljc5LTEwOC43MTMsOC4xMi0xNjAuMjI5DQoJQzE1Ny40OTMsOTYuNzY3LDIwNC44ODUsMzEuNTk0LDI0Ny41NiwyLjYwM2M1LjA5LTMuNDcsMTEuNzktMy40NywxNi44OCwwYzM5LjQ2NywyNi44NzMsODkuMDU5LDkwLjI0MSwxMTAuNDgsMTcwLjEwOQ0KCUMzOTkuNzk3LDI2NS4xMjYsMzg1LjMyMywzNjIuMDMzLDM1Mi42OSw0NTEuMTZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRDgxRDJGOyIgZD0iTTM3NC45MjEsMTcyLjcxMkMzNTMuNDk5LDkyLjg0NCwzMDMuOTA4LDI5LjQ3NiwyNjQuNDQsMi42MDNDMjYxLjg5NSwwLjg2NywyNTguOTQ4LDAsMjU2LDB2NDYxDQoJaDgyLjZjNi4zLDAsMTEuOTItMy45MywxNC4wOS05Ljg0QzM4NS4zMjMsMzYyLjAzMywzOTkuNzk3LDI2NS4xMjYsMzc0LjkyMSwxNzIuNzEyeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0Y3OTc0RjsiIGQ9Ik0zNzQuOTIxLDE3Mi43MTJjLTcxLjYxNi0zNC4wNTEtMTY1LjY4My0zNC4zMTgtMjM3Ljg0LTAuMDINCglDMTU3LjQ5Myw5Ni43NjcsMjA0Ljg4NSwzMS41OTQsMjQ3LjU2LDIuNjAzYzUuMDktMy40NywxMS43OS0zLjQ3LDE2Ljg4LDBDMzAzLjkwOCwyOS40NzYsMzUzLjQ5OSw5Mi44NDMsMzc0LjkyMSwxNzIuNzEyeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZDNUUzMDsiIGQ9Ik0zNzQuOTIxLDE3Mi43MTJDMzUzLjQ5OSw5Mi44NDQsMzAzLjkwOCwyOS40NzYsMjY0LjQ0LDIuNjAzQzI2MS44OTUsMC44NjcsMjU4Ljk0OCwwLDI1NiwwdjE0Ny4wNzMNCglDMjk3LjU1NiwxNDcuMDgxLDMzOS4wNTQsMTU1LjY1OSwzNzQuOTIxLDE3Mi43MTJ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRkRGMDVGOyIgZD0iTTI1NiwyMTEuMDAyYy0zNS44NDEsMC02NSwyOS4xNTktNjUsNjVzMjkuMTU5LDY1LDY1LDY1czY1LTI5LjE1OSw2NS02NQ0KCVMyOTEuODQxLDIxMS4wMDIsMjU2LDIxMS4wMDJ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRkVEMjNDOyIgZD0iTTI1NiwyMTEuMDAydjEyOS45OTljMzUuODQxLDAsNjUtMjkuMTU5LDY1LTY1UzI5MS44NDEsMjExLjAwMiwyNTYsMjExLjAwMnoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" alt="icon" height="20" width="20"></div>
-        
-        
 
 
-    </nav>
-
+    
 </body>
 </html>

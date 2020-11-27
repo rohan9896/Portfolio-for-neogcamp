@@ -2,14 +2,26 @@
 
 :root {
     --primary-color: #FB923C;
+    --secondary-color: #38BDF8;
 }
+
 
 body {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+
 }
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* container */
 
 .container {
     padding: 0rem 2rem;
+    margin: 0.5rem 0.5rem;
 }
 
 .container-center {
@@ -17,16 +29,65 @@ body {
     margin: auto;
 }
 
+/* lists */
+
+.list-not-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+/* navbar */
+
 .nav-container {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    
+}
+
+.nav-brand .img-in-nav-brand{
+    height: 30px;
+    width: 30px;
 }
 
 .nav-container .nav-brand {
     font-weight: bold;
+    font-size: x-large;
+}
+
+.nav-pills {
+    text-align: right;
+    font-size: large;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+    padding: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero .hero-heading .heading-diff-color {
+    color: var(--secondary-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
