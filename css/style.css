@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,400;1,300&display=swap");
 
 :root {
-    --primary-color: #FB923C;
+    --primary-color: #2F4858;
     --secondary-color: #ce5132;
+    --section-bg1: #86BBD8;
+    --section-bg2: #33658A
 }
 
 
@@ -95,7 +97,12 @@ h1, h2, h3, h4, h5, h6{
     color: var(--secondary-color);
 }
 
-.change-bg-color {
-    background-color: rgb(248, 237, 220);
+.change-bg-color-1 {
+    background-color: var(--section-bg1);
 }
 
+/* rgb(248, 237, 220) */
+
+.change-bg-color-2 {
+    background-color: var(--section-bg2);
+}
