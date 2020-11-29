@@ -75,6 +75,11 @@ h1, h2, h3, h4, h5, h6{
     font-size: large;
 }
 
+.nav-container .link-highlight {
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* header */
 
 .hero{
