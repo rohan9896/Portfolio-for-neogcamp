@@ -7,6 +7,7 @@
     --section-bg2: #33658A;
     --footer-color: #000000;
     --btn-color: #f37121;
+    --pills-color: #436072;
 }
 
 
@@ -73,6 +74,12 @@ h1, h2, h3, h4, h5, h6{
 .nav-pills {
     text-align: right;
     font-size: large;
+}
+
+.nav-pills > li {
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--pills-color);
 }
 
 .nav-container .link-highlight {
