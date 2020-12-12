@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
 
 .list-inline {
     display: inline;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 /* navbar */
@@ -148,6 +148,8 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .last-line {
